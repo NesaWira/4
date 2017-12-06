@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE()
-cl.login(token="Enowp62fHtRRdJsefUB2.bG/Q0ltc9LyFs73U82CdeG.LlmwhgL96FdcTgBhkyoA7vN5dLVBuOGEgxKUpPnT5LA=")
+cl.login(qr=True)
 cl.loginResult()
 print "===[Login Success]==="
 
@@ -63,8 +63,8 @@ helpMessage ="""
 """
 
 mid = cl.getProfile().mid
-Creator="u060faad0b4c2f6561f4bbdeef3670312"
-admin=["u060faad0b4c2f6561f4bbdeef3670312"]
+Creator="u0710a42a75e0a476ad687639db8c069c"
+admin=["u0710a42a75e0a476ad687639db8c069c"]
 
 contact = cl.getProfile()
 profile = cl.getProfile()
